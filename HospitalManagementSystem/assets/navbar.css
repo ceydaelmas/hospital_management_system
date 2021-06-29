@@ -1,0 +1,25 @@
+/*BAR*/
+ 
+.top-bar{
+    background-color: #5f0038;
+    background: rgba(223, 223, 223, 0.5);
+    color:#5f0038 ;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 12px 1px rgba(0,0,0,.50);
+}
+.logo{
+    font-size: 3rem;
+    padding: 0.8rem 0.8rem;
+    font-weight: 700;
+    flex-grow: 1.5;
+    transition:all .75s;
+}
+
+.logo a{
+    color:#5f0038 ;
+    text-decoration: none;
+ }
+ .logo a h5{
+     text-align: center;
+ }
